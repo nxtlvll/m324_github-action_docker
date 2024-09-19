@@ -34,4 +34,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/m346-ref-card-02:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/m346-ref-card-02:v1
